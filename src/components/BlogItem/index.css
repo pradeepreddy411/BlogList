@@ -1,0 +1,26 @@
+/* Write your CSS code here */
+.Blog-item {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.Blog-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.blog-heading {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Roboto;
+  color: #12022f;
+}
+.blog-description {
+  font-size: 20px;
+  font-family: Roboto;
+  color: #9aa5b1;
+}
+.separator {
+  width: 100%;
+}
